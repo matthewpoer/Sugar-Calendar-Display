@@ -1,0 +1,9 @@
+This program is intended to retrieve data from a given SugarCRM system. Data 
+involved will be from the Calendar modules: Calls, Meetings and Tasks. Data 
+will be sorted based in the assigned user and stacked according in order of 
+occurance, then formatted and presented in an HTML calendar for use on a web 
+page. 
+
+It is worth noting that this is my first experience with Ruby, but not with
+SugarCRM.
+
