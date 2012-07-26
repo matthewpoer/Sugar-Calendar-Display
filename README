@@ -1,9 +1,13 @@
-This program is intended to retrieve data from a given SugarCRM system. Data 
-involved will be from the Calendar modules: Calls, Meetings and Tasks. Data 
-will be sorted based in the assigned user and stacked according in order of 
-occurance, then formatted and presented in an HTML calendar for use on a web 
-page. 
+PHP Based Calendar-page Generator for SugarCRM
+==============================================
 
-It is worth noting that this is my first experience with Ruby, but not with
-SugarCRM.
+This script will pull Meeting and Call recrods from a provided SugarCRM instance, then
+list out these events (in 15-minute intervals) by User. 
 
+Times are converted to America/New_York (Eastern Standard Time). 
+
+It was originally attempted in Ruby but due to time constraints I gave up on that route
+and went back to my native PHP. I utilize Asa Kusuma awesome SugarCRM REST API Class as
+a wrapper for my connection to SugarCRM. 
+
+The generated HTML calendar is not incredible, but can be used as a basis for other things.
